@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "bootstrap": "^5.0.0-beta1",
     "web-setup-cli": "^1.0.0"
   },
   "devDependencies": {},
