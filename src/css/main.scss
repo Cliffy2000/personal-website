@@ -2,44 +2,4 @@
 /* main css file which loads after bootstrap
  * this file is to be changed as desired
  */
-$neon-pink: #F25CA2;
-$medium-blue: #0433BF;
-$blue: #032CA6;
-$dark-blue: #021859;
-$light-blue: #0B9ED9;
-$grey: #efefef;
-html {
-  font-size: 100%; // 1rem is 16px;
-}
-
-body {
-  font-size: 1rem;
-  background: $grey;
-}
-
-.navbar-dark {
-  background: $blue;
-}
-.dropdown-menu {
-  padding: 0;
-  border-radius: 0;
-  .dropdown-item {
-    padding: 0.5rem 1rem;
-    &:hover, &:focus {
-      color: white;
-      background: $blue;
-    }
-  }
-}
-main {
-  padding: 2rem 0;
-}
-footer {
-  background: $blue;
-  a {
-    color: white;
-    &:hover {
-      color: $grey;
-    }
-  }
-}
+ 
