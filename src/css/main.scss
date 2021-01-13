@@ -1,5 +1,18 @@
-@import 'partial';
-/* main css file which loads after bootstrap
- * this file is to be changed as desired
- */
- 
+.navbar {
+	background-color: #424242;
+	color: white;
+
+	.navbar-brand {
+		color: #eeeeee;
+		font-size: 28px;
+		font-family: "Lucida Handwriting";
+	}
+	.nav-link {
+		color: #eeeeee !important;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.navbar-toggler-icon {
+		color: #eeeeee !important;
+	}
+}
